@@ -1,0 +1,95 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body{
+    background-color: #ccffee;
+}
+input{
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+button{
+  -webkit-transition:background-color 1s;
+  margin: 10px;
+  width: 300px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #cceeff;
+  color: #444444;
+
+}
+
+button:hover{
+  color: #fff;
+  background-color: #0099ff;
+}
+.head{
+  padding: 30px 0px 30px 50px;
+  background-color:#33aaff;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+
+}
+
+.login {
+  float: right;
+}
+.logout{
+  float: right;
+}
+
+.login input{
+  margin-right: 1px;
+  width: 180px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.head button{
+  margin-right: 50px;
+  width: 130px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.error1{
+  //border: 1px solid;
+  text-align: center;
+  padding-top: 20px;
+  color: red;
+}
+.panel {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #66ddff;
+  width:400px;
+  height: 420px;
+  border-radius: 20px;
+}
+.today{
+  text-align: center;
+  margin-top: 70px;
+  padding-top: 35px;
+  font-size: 30px;
+  color: #ccffff;
+}
+.signup{
+  text-align: center;
+}
+.signup button{
+  margin-top: 50px;
+}

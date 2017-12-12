@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+    background-color: #33bbff;
+}
+
+h3{
+  padding-bottom: 80px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 70px;
+  color: #fff;
+}
+
+input{
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+button{
+  margin: 10px;
+  width: 300px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: #cceeff;
+  color: #444444;
+  -webkit-transition:background-color 1s;
+}
+
+button:hover{
+  color: #fff;
+  background-color: #0099ff;
+}
+
+.loginlabel{
+  text-align: center;
+  color: #ffffdd;
+  font-size: 25px;
+}
+.loginform{
+  border-color: black;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+
+
+#getstart{
+  text-align: center;
+}
+
+.hi{
+  font-size: 28px;
+  font-weight: 100;
+  margin: 20px;
+  color: #99ffff;
+}
+
+#fillit{
+  text-align: center;
+}
+
+.howmuch{
+  font-size: 28px;
+  font-weight: 100;
+  margin: 20px;
+  color: #99ffff;
+}
+
+.smile{
+  font-size: 150px;
+  color: #00eeff;
+}
+
+.end{
+  font-size: 28px;
+  font-weight: 100;
+  margin: 20px;
+  color: #99ffff;
+}
