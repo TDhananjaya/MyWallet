@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   session_start();
   include '../database.php';
 
@@ -22,3 +23,4 @@
   $result=$conn->query($sql);
   //echo $sql;
   header("Location: ../welcome.php");
+  ob_end_flush();
