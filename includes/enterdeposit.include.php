@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   session_start();
   include '../database.php';
 
@@ -37,3 +38,4 @@
 
   //echo $sql;
   header("Location: ../payment.php");
+  ob_end_flush();
