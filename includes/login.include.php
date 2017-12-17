@@ -1,4 +1,5 @@
 <?php
+  ob_start();
   session_start();
   include '../database.php';
   date_default_timezone_set("Asia/Colombo");
@@ -15,3 +16,4 @@
   }
 
   header("Location: ../home.php");
+  ob_end_flush();
