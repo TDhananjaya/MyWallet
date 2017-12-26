@@ -7,7 +7,7 @@
     var randomScalingFactor = function() {
         return Math.round(Math.random() * 100);
     };
-
+        
     var config = {
         type: 'doughnut',
         data: {
@@ -19,6 +19,7 @@
                     randomScalingFactor(),
                     randomScalingFactor(),
                 ],
+                
                 backgroundColor: [
                     window.chartColors.red,
                     window.chartColors.orange,
