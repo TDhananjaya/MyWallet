@@ -6,7 +6,7 @@
 
    if(isset($_SESSION['userId'])){
      echo "<div class='deposit' id='deposit'>
-     <h1>deposits in to wallet</h1>
+     <h1>Deposits in to wallet</h1>
      <br>
      <form action='includes/enterdeposit.include.php' method='post'>
        <table>
